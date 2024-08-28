@@ -1,6 +1,6 @@
 import { defineConfig } from "@diba1013/eslint-config";
 
 export default defineConfig({
-	platform: "node",
+	environment: "node",
 	typescript: "./tsconfig.json",
 });

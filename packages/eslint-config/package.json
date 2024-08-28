@@ -1,0 +1,45 @@
+{
+	"name": "@diba1013/eslint-config",
+	"version": "0.12.4",
+	"description": "The missing eslint config for personal use",
+	"keywords": [],
+	"license": "MIT",
+	"repository": {
+		"type": "git",
+		"url": "git://github.com/diba1013/eslint-config.git",
+		"directory": "packages/eslint-config"
+	},
+	"author": "diba1013",
+	"type": "module",
+	"files": [
+		"src"
+	],
+	"exports": {
+		".": "./src/recommended.js",
+		"./*": "./src/*.js"
+	},
+	"main": "./src/recommended.js",
+	"peerDependencies": {
+		"eslint": "9.x",
+		"prettier": "3.x"
+	},
+	"dependencies": {
+		"@eslint/eslintrc": "^3.1.0",
+		"@eslint/js": "^9.9.1",
+		"eslint-config-prettier": "^9.1.0",
+		"eslint-plugin-jsonc": "^2.16.0",
+		"eslint-plugin-perfectionist": "^3.3.0",
+		"eslint-plugin-prettier": "5.2.1",
+		"eslint-plugin-promise": "^7.1.0",
+		"eslint-plugin-unicorn": "^55.0.0",
+		"eslint-plugin-vue": "^9.27.0",
+		"eslint-plugin-yml": "^1.14.0",
+		"globals": "^15.9.0",
+		"typescript-eslint": "8.3.0"
+	},
+	"devDependencies": {
+		"@types/node": "^22.5.1",
+		"eslint": "^9.9.1",
+		"prettier": "^3.3.3"
+	}
+}
