@@ -15,10 +15,11 @@
 		"src"
 	],
 	"exports": {
-		".": "./src/recommended.js",
-		"./*": "./src/*.js"
+		".": "./src/recommended.eslint.js",
+		"./eslint": "./src/recommended.eslint.js",
+		"./prettier": "./src/recommended.prettier.js"
 	},
-	"main": "./src/recommended.js",
+	"main": "./src/recommended.eslint.js",
 	"peerDependencies": {
 		"eslint": "9.x",
 		"prettier": "3.x"

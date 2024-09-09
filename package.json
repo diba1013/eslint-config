@@ -1,5 +1,5 @@
 {
-	"name": "@diba1013/eslint-config-roor",
+	"name": "@diba1013/eslint-config-root",
 	"private": true,
 	"license": "MIT",
 	"author": "diba1013",
@@ -22,7 +22,6 @@
 		"@commitlint/config-conventional": "^19.4.1",
 		"@diba1013/eslint-config": "workspace:*",
 		"@diba1013/prettier-config": "^0.12.4",
-		"@diba1013/tscz": "^0.2.1",
 		"@types/node": "^22.5.1",
 		"@vitest/coverage-v8": "^2.0.5",
 		"eslint": "^9.9.1",
